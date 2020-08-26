@@ -1,0 +1,55 @@
+/* *** *** *** BLOG *** *** *** */
+body
+	section.wrapper
+		section.sidebar
+		section.content-wrapper
+			header
+				section.top-bar
+			main
+				section.main-wrapper
+					section.intro-box
+					section.main-content
+			footer
+				section.footer
+				
+/* *** SIDEBAR *** */
+section.sidebar
+	div.left-menu__brand
+		img.left-menu_logo
+	ul.left-menu__content
+		li.left-menu__header-menu>span
+		li*3>a
+			
+/* *** MAIN CONTENT *** */
+header
+	section.top-bar
+		div.top-bar__navbar-toggler>span.line*3
+		div.top-bar__content
+			ul.top-bar_links>li*2>a
+			ul.top-nar_social
+				li*3>a>i
+				li>a>span & img.top-bar__avatar
+main
+	section.main-wrapper
+		section.intro-box
+			h1.intro-box__title
+			ul.intro-box__breadcrumb
+				li.breadcrumb-item*3>a
+				li.breadcrumb-item>span
+				
+		section.main-content
+			.row>.col-md-3*4>.card & .mt-4
+				div.card-header>span.badge & .badge-primary
+				div.card-body
+					h5.card-title
+					p.card-description
+					a.btn & .btn-block & .btn-primary-3d
+			.row
+				ul.pagination>li.page-item*5>a
+				
+footer
+	section.footer
+		p
+		div.footer__craft
+		
+		

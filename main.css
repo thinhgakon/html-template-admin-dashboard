@@ -1,0 +1,104 @@
+.main-wrapper{
+    padding: 25px;
+}
+.intro-box{
+
+}
+.intro-box__title{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.intro-box__breadcrumb{
+    display: flex;
+    text-transform: uppercase;
+}
+.intro-box__breadcrumb > li{
+    font-size: 13px;
+}
+.intro-box__breadcrumb > li > a{
+    color: #6c757d;
+}
+.intro-box__breadcrumb > li > span{
+    color: #8a959e;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    vertical-align: 1px;
+    font-size: 10px;
+    padding-right: .5rem;
+    color: #92999f;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(51,51,51,0.15);
+    background-color: #fff;
+    overflow: hidden;
+}
+.card-header{
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1.5rem;
+}
+.card-body{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 1.5rem 1.25rem;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.card-description{
+    color: #888c90;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 170%;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination > li.page-item{
+    
+}
+.pagination > li.page-item > a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    margin: 0 3px;
+    background-color: #fff;
+}
+.pagination > li.page-item > a:hover{
+    background-color: #f1f4f7;
+    color: #5780f7;
+}
+.pagination > li.active{
+
+}
+.pagination > li.active a{
+    color: #fff;
+    background-color: #5780f7;
+    border-color: #3f6ef6;
+}

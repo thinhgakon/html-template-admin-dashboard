@@ -1,0 +1,12 @@
+.footer{
+    padding: 0 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    font-size: 0.9rem;
+
+}
+.footer > p{
+    margin: 0;
+    padding: 0;
+}

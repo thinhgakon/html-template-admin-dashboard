@@ -1,0 +1,81 @@
+.top-bar{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 0 7px rgba(0,0,0,0.25);
+    position: fixed;
+    top: 0;
+    width: calc(100% - 270px);
+    z-index: 999;
+}
+.top-bar__navbar-toggler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 0 10px;
+}
+.top-bar__navbar-toggler > span{
+    display: block;
+    float: left;
+    width: 25px;
+    height: 1.5px;
+    background-color: #7f7f7f;
+    margin: 3px 0;
+    border-radius: 5px;
+}
+.top-bar__content{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar_links{
+    display: flex;
+    align-items: center;
+}
+.top-bar_links > li{
+
+}
+.top-bar_links > li > a{
+    height: 100%;
+    font-weight: 500;
+    padding: 1.4rem 1.5rem;
+    color: #797e99;
+    display: inline-block;
+}
+.top-bar_links > li > a:hover{
+    background-color: #f1f4f7;
+}
+.top-nar_social{
+    display: flex;
+    align-items: center;
+}
+.top-nar_social > li{
+
+}
+.top-nar_social > li > a{
+    height: 100%;
+    font-weight: 500;
+    color: #797e99;
+    padding: 1.4rem 1.5rem;
+    display: inline-block;
+}
+.top-nar_social > li > a:hover{
+    background-color: #f1f4f7;
+}
+.top-nar_social > li.last-item > a{
+    padding: 1.1rem 1.5rem;
+}
+.top-bar__avatar{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+    text-transform: uppercase;
+    background-color: #eee;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 50% !important;
+    margin-left: 10px;
+}
